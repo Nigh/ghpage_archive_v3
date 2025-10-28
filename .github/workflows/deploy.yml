@@ -10,6 +10,10 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  PUBLIC_BASE_URL: '/ghpage_archive_v3'
+  PUBLIC_SITE_URL: 'https://nigh.github.io'
+
 jobs:
   build:
     runs-on: ubuntu-latest
