@@ -1,7 +1,6 @@
 <script>
   import { onMount, tick } from 'svelte';
   import DotsImage from './DotsImage.svelte';
-  export let base = '';
   let src;
 
   const isValidPixel = (rgba) => rgba.a > 50;

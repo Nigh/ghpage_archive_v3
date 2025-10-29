@@ -1,7 +1,6 @@
 ---
 import '../styles/global.css';
 import '../styles/markdown.css';
-const base = import.meta.env.PUBLIC_BASE_URL;
 ---
 
 <!doctype html>
@@ -9,7 +8,7 @@ const base = import.meta.env.PUBLIC_BASE_URL;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href={`${base}/icon.png`} />
+    <link rel="icon" type="image/png" href="/icon.png" />
     <meta name="generator" content={Astro.generator} />
     <title>xianii</title>
   </head>
