@@ -4,7 +4,7 @@
   "version": "3.0.0",
   "scripts": {
     "dev": "cross-env PUBLIC_BASE_URL='/' astro dev",
-    "build": "cross-env PUBLIC_BASE_URL='/' astro build",
+    "build": "cross-env PUBLIC_BASE_URL='/ghpage_archive_v3' astro build",
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write ."
