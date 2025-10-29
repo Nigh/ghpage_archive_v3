@@ -35,7 +35,7 @@
   let subindex = 0;
   const srcUpdate = () => {
     if (images[index]) {
-      src = '/' + images[index][subindex];
+      src = base + '/' + images[index][subindex];
     } else {
       src = '';
     }

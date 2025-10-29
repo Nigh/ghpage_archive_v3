@@ -7,8 +7,8 @@ import dotenv from 'dotenv';
 import icon from 'astro-icon';
 dotenv.config();
 
-const BASE_PATH = process.env.PUBLIC_BASE_URL || '/'; // Default to '/'
-const SITE_URL = process.env.PUBLIC_SITE_URL || 'http://localhost:4321'; // Default for local dev
+const BASE_PATH = process.env.PUBLIC_BASE_URL || '/err';
+const SITE_URL = process.env.PUBLIC_SITE_URL || 'http://localhost:4321';
 
 // https://astro.build/config
 export default defineConfig({
