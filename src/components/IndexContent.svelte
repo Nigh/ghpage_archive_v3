@@ -1,7 +1,6 @@
 <script>
   import { onMount, tick } from 'svelte';
   import DotsImage from './DotsImage.svelte';
-  export let base = '';
   let src;
 
   const isValidPixel = (rgba) => rgba.a > 50;
@@ -36,7 +35,7 @@
   let subindex = 0;
   const srcUpdate = () => {
     if (images[index]) {
-      src = base + images[index][subindex];
+      src = '/' + images[index][subindex];
     } else {
       src = '';
     }
